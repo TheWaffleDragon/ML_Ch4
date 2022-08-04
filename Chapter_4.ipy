@@ -168,7 +168,7 @@ n_iterations = 50
 minibatch_size = 20
 
 np.random.seed(42)
-theta = np.random.randn(2,1)  # random initialization
+theta = np.random.randn(2,1)  
 
 t0, t1 = 200, 1000
 def learning_schedule(t):
